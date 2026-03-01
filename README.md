@@ -1,16 +1,55 @@
-# core_project
+# Calculadora de IMC (Índice de Massa Corporal)
 
-A new Flutter project.
+Este é um projeto Flutter desenvolvido para calcular o IMC do usuário de forma simples e rápida. O aplicativo oferece suporte a múltiplos idiomas e uma interface intuitiva.
 
-## Getting Started
+## 🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Cálculo de IMC**: Insira seu peso e altura para obter o resultado instantaneamente.
+- **Internacionalização**: Suporte automático para Português e Inglês, baseado no idioma do sistema.
+- **Interface Responsiva**: Design limpo e adaptável para diferentes dispositivos.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/) - Framework de UI
+- [Dart](https://dart.dev/) - Linguagem de programação
+- [Provider](https://pub.dev/packages/provider) - Gerenciamento de estado (configurado)
+- [Intl](https://pub.dev/packages/intl) - Suporte para internacionalização
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Como Rodar o Projeto
+
+### Pré-requisitos
+
+- Flutter SDK instalado
+- Emulador ou dispositivo físico conectado
+
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone <url-do-repositorio>
+   ```
+
+2. Entre no diretório do projeto:
+   ```bash
+   cd PROJECT_IMC_FLUTTER
+   ```
+
+3. Instale as dependências:
+   ```bash
+   flutter pub get
+   ```
+
+4. Execute o aplicativo:
+   ```bash
+   flutter run
+   ```
+
+## 📄 Estrutura do Projeto
+
+- `lib/forms/`: Contém os formulários de entrada de dados.
+- `lib/screens/`: Telas principais do aplicativo (Home, Resultados).
+- `lib/widgets/`: Componentes de UI reutilizáveis.
+- `lib/utils/`: Utilitários como temas e traduções.
+
+---
+Desenvolvido como parte do aprendizado em Flutter.
